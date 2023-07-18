@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    text-align: center;
+    background-color: red;
+}
+
+.cards{
+    width: 320px;
+    height: 500px;
+    background-color: aqua;
+    border-radius: 40px;
+    margin: auto;
+}
+
+
+.cards2{
+    background-color: aqua;
+    width: 320px;
+    height: 500px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+
+.cards3{
+    background-color: aqua;
+    width: 320px;
+    height: 500px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.home{
+   display: flex;
+   align-items: center;
+   height: 100vh;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Copyright{
+    text-align: center;
+}
+
+
+
+a{
+    
+    text-decoration-line: none !important;
+    color: black !important;
+    display: flex;
+}
+
+.ultima-noticia{
+    display: flex;
+}
+
+.porque-elegirnos{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/paisaje.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+footer{
+    background-color: #FC7300;
+}
+
+
+
+@media screen and (min-width: 720px) { 
+    body {
+          background-color: red !important; 
+    }
+}
