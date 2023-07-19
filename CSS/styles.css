@@ -1,7 +1,11 @@
+
+
+
+
 .container{
     display: flex;
     width: 100vw;
-    height: 100vh;
+   /* height: 100vh*/
     justify-content: center;
     align-items: center;
     margin-top: 0;
@@ -38,7 +42,8 @@
 .home{
    display: flex;
    align-items: center;
-   height: 100vh;
+   /*height: 100vh;*/
+   background-color: blue;
 }
 
 
@@ -63,15 +68,15 @@ a{
 
 .ultima-noticia{
     display: flex;
+    height: 100vh;
+    background-color: #FC7300;
 }
 
 .porque-elegirnos{
     height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url("../img/paisaje.jpg");
-    background-repeat: no-repeat;
-   background-size: cover;
+    background-color: blueviolet;
 }
 
 footer{
@@ -79,9 +84,65 @@ footer{
 }
 
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1F8A70;
+}
 
-@media screen and (min-width: 720px) { 
-    body {
-          background-color: red !important; 
+
+/*main{
+    margin-top: 600px;
+}*/
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) { 
+    .container, .contenedor, .home, .porque-elegirnos, .ultima-noticia {
+          display: inline-block;
     }
 }
+
+@media screen and (min-width: 320px) { 
+    main, footer {
+              text-align: center;
+        }
+    }
+
+@media screen and (min-width: 320px) { 
+        .cards, .cards2, .cards3 {
+               width: 100%;   
+            }
+        }
+
+@media screen and (min-width: 320px) { 
+            header {
+                   width: 100%;   
+                }
+            }
+            
+@media screen and (min-width: 320px) { 
+  .propuesta-edu {
+            width: 100%;   
+     }
+}
+  
+@media screen and (min-width: 320px) { 
+    .cards, .cards2, .cards3 {
+              margin-bottom : 5px;   
+       }
+  }
+
+  @media screen and (min-width: 320px) { 
+    h3 {
+          font-size: 20px !important;     
+       }
+  }
