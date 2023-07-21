@@ -114,3 +114,23 @@ p {
   outline: 0;
   border: 1px solid #97d848;
 }
+
+@media screen and (width: 320px) {
+  .contact_form {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+@media screen and (width: 320px) {
+  input,
+  textarea,
+  button {
+    width: 60% !important;
+    margin-left: 25px;
+  }
+}
+@media screen and (width: 320px) {
+  h3 {
+    font-size: 13px;
+  }
+}
