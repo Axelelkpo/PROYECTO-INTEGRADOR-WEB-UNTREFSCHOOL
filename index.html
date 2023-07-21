@@ -5,30 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Educación Primaria UntrefSchool</title>
 </head>
 <body>
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav id="home-nav" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">UntrefSchool</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#home-nav">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#quienes-somos">Features</a>
+                <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#porque-elegirnos">Pricing</a>
+                <a class="nav-link" href="#porque-elegirnoss">Por que Elegirnos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href="#propuesta-eduu">Propuestas Educativas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ultima-noti">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactos">Contacto</a>
               </li>
             </ul>
           </div>
@@ -38,19 +46,17 @@
 
 <header> 
   <div class="home-principal">
-    <div class="titulo"><h1>UntrefSchool</h1></div>
-        <h2>Educación Primaria</h2>
+    <div><h1><span>UntrefSchool</span></h1></div>
+        <h2><span class="letra-color">Educación Primaria</span></h2>
     </div>
   </div>
-        
-    
 </header>
 
 <main>
-    
-    <div class="home">
-        <h2 id="quienes-somos">Quienes somos</h2>
-        <img src="img/atardecer-quienes-somos.jpg" alt="atardecer" width="200px" height="200px">
+    <div class="fondo-quien-somos">
+      <h2 id="quienes-somos">Quienes somos</h2>
+      <div class="home">
+        <img class="imagen" src="img/atardecer-quienes-somos.jpg" alt="atardecer" width="200px" height="200px">
         <div>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deleniti ducimus amet ea, cumque odio exercitationem eveniet dolore, maiores minima voluptatum officiis consequuntur vero, tempora veniam enim similique eaque perferendis!
             Doloribus voluptate laborum delectus corrupti laboriosam quod magni libero adipisci! Dolorum dolore, qui consequatur neque cumque dolores obcaecati error aperiam a veniam optio deleniti repudiandae alias earum excepturi impedit. Quibusdam.
@@ -60,63 +66,72 @@
         </p>
     </div>
     </div>
+    </div>
     
     
-    <div class="porque-elegirnos">
-        <h2 id="porque-elegirnos">Por qué elegirnos?</h2>
+    <div class="fondo-porq-elegirnos">
+      <h2 id="porque-elegirnoss">Por qué elegirnos?</h2>
+      <div class="porque-elegirnos">
+        
         <div>
             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed a quaerat earum. Veritatis possimus officia nobis nisi in sequi, labore, maxime natus iusto accusamus molestiae animi. Qui iure mollitia unde?
                 Commodi voluptatem incidunt autem ullam. Voluptatem reiciendis pariatur sed reprehenderit inventore nobis illo, natus nesciunt possimus corrupti ipsum iusto placeat deleniti cupiditate atque rem. Excepturi a obcaecati voluptatibus perspiciatis alias!</P>
         </div>
-        <img src="img/paisaje.jpg" alt="por que elegirnos" width="200px" height="200px">
+        <img class="imagen" src="img/paisaje.jpg" alt="por que elegirnos" width="200px" height="200px">
+    </div>
     </div>
     
     
-        
+    <div class="propuesta-fondo">
+        <h2 id="propuesta-eduu">Propuesta Educativa</h2>
         <div class="container">
-            <h2>Propuesta Educativa</h2>
+            
             <div class="cards">
-                <h3>Padre rico, padre pobre</h3>
+                <h3>Taller De Teatro</h3>
                 <img class="propuesta-edu" src="img/propuesta-educativa.jpg" alt="Propuesta Educativa" height="300px" width="300px">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fugit dicta ex rem quam autem aperiam fuga sit eveniet dolorum.</p>
+                <p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fugit dicta ex rem quam autem aperiam fuga sit eveniet dolorum.</p>
             </div>
         
             <div class="cards2">
-                <h3>Piense y hagase rico</h3>
+                <h3>Taller de Computación</h3>
                 <img class="propuesta-edu" src="img/nieve-Propuesta-educativa.jpg" alt="propuesta-educativa" height="300px" width="300px">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fugit dicta ex rem quam autem aperiam fuga sit eveniet dolorum.</p>
+                <p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fugit dicta ex rem quam autem aperiam fuga sit eveniet dolorum.</p>
             </div>
              
             <div class="cards3">
-                <h3>La ciencia de hacerse rico</h3>
+                <h3>Taller De Pinterest</h3>
                 <img class="propuesta-edu" src="img/autos-propuesta-educativa.jpg" alt="propuesta-educativa" height="300px" width="300px">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fugit dicta ex rem quam autem aperiam fuga sit eveniet dolorum.</p>
+                <p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fugit dicta ex rem quam autem aperiam fuga sit eveniet dolorum.</p>
             </div>
         </div>
-        
-        
-        
-    <div class="ultima-noticia">
-        <h2>Últimas noticias</h2>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illum magni adipisci temporibus debitis vitae! Consequatur, iste? Voluptates distinctio, dolore, corrupti, ex nobis molestias aperiam id tempore amet nam dolor!
-            </p>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum fugiat id delectus ducimus? Dolor veniam, officiis minus vero atque voluptates culpa at qui, dignissimos nobis maiores fugit eum sint sunt!</p>
-        </div>
     </div>
+    
+        
+        
+        <div class="fondo-noticia">
+          <h2 id="ultima-noti">Últimas noticias</h2>
+          <div class="ultima-noticia">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illum magni adipisci temporibus debitis vitae! Consequatur, iste? Voluptates distinctio, dolore, corrupti, ex nobis molestias aperiam id tempore amet nam dolor!
+                </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum fugiat id delectus ducimus? Dolor veniam, officiis minus vero atque voluptates culpa at qui, dignissimos nobis maiores fugit eum sint sunt!</p>
+            </div>
+        </div>
+        </div>
+    
 </main>
    
 
-<footer>
+<footer id="contactos">
     <div class="contenedor">
         <div>
             <h1>Redes sociales</h1>
             
-                <a href="https://twitter.com/">Twitter</a></li>
-                <a href="https://www.facebook.com/">Facebook</a></li>
-                <a href="https://www.instagram.com/">Instagram</a></li>
+                <a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
         
         </div>
         <div>
@@ -125,15 +140,16 @@
         </div>
         <div>
             <h1>Contacto</h1>
-            <a href="mailto:elcorreoquequieres@correo.com" target="_blank">Aquí el texto que quieras</a>
-            <a href="tel:+34000000000" target="_blank">Clicka para llamar</a>
-            <a href="https://wa.me/34555005500" target="_blank">Anchor text</a>
+            <a href="mailto:elcorreoquequieres@correo.com" target="_blank">Email@instituto.com</a>
+            <a href="tel:+54000000000" target="_blank">Tel: 11-222-3333</a>
+            <a href="https://wa.me/112223333" target="_blank">Wapp: 11-222-3333</a>
         </div>
-       
-    </div>
-   <div class="Copyright">
-    <p>Copyright 2023©</p>
-   </div> 
+       </div>
+       <hr>
+          <button type="button" class="btn btn-primary"><a href="contacto.html">Escribinos!!!</a></button>
+      
+          
+        
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
