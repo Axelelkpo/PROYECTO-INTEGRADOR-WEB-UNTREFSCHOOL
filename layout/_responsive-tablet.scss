@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cards,
+  .cards2,
+  .cards3 {
+    width: 40% !important;
+    margin: 6px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .propuesta-edu {
+    width: 100%;
+    border-radius: 5%;
+  }
+}
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .comentario {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .propuesta-fondo,
+  .home {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contenedor {
+    display: flex !important;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ultima-noticia {
+    display: flex;
+    height: 100vh;
+  }
+}

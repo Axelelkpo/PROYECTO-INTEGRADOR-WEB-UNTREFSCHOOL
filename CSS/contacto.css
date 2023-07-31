@@ -110,11 +110,6 @@ p {
   border: 1px solid #97d848;
 }
 
-.formulario textarea:focus {
-  outline: 0;
-  border: 1px solid #97d848;
-}
-
 @media screen and (width: 320px) {
   .contact_form {
     width: 100% !important;
