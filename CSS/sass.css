@@ -19,7 +19,6 @@ body {
   margin-top: 0;
   text-align: center;
 }
-
 .cards {
   width: 320px;
   height: 500px;
@@ -250,4 +249,4 @@ span {
     width: 35% !important;
     margin: 6px;
   }
-}/*# sourceMappingURL=sass.css.map */
+} /*# sourceMappingURL=sass.css.map */
