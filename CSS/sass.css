@@ -215,6 +215,7 @@ span {
   .ultima-noticia {
     display: flex;
     height: 100vh;
+    align-items: center;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -254,5 +255,10 @@ span {
   .cards3 {
     width: 35% !important;
     margin: 6px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .porque-elegirnos {
+    margin-top: 0;
   }
 }/*# sourceMappingURL=sass.css.map */
